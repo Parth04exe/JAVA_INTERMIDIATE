@@ -26,6 +26,56 @@ public class string_manipulation {
         String s9="ashutosh";
         System.out.println(s9.charAt(5));
 
+        //COMPARE TO //returns integer
+        String s10="hello";
+        String s11="kemcho";
+        System.out.println(s10.compareTo(s11));
+
+        int res=s10.compareTo(s11);
+        System.out.println(res);
+
+        //reference com equals()
+        System.out.println(s10.equals(s11));
+
+        //COMPARE TO //returns integer
+
+        String s12="hello";
+        String s13="hello";
+        System.out.println(s12.compareTo(s13));
+
+        int res1=s12.compareTo(s13);
+        System.out.println(res1);
+
+        //reference com equals()
+        System.out.println(s12.equals(s13));
+
+        //CONTAINS
+        String s14="hello i am parth welcome to my coding world";
+        System.out.println(s14.contains("parth we"));
+        System.out.println(s14.contains("parth "));
+        System.out.println(s14.contains("parth"));
+        System.out.println(s14.contains("visal"));
+
+        //INDEX OF
+        String s15="Ashutosh hello";
+        System.out.println(s15.indexOf('h'));
+        System.out.println(s15.indexOf("hello"));
+        //System.out.println(s15.index);
+
+
+        //REPLACE
+        String s16="hello Ashuetosh";
+        System.out.println(s16.replace("e", "a"));
+        String s17="hello Ashuetosh";
+        System.out.println(s17.replace('e', 'a'));
+        String s18="hello Ashuetosh";
+        System.out.println(s18.replace("hello", "hi"));
+
+        //SBSTRING
+        String s19="hello i am part welcome to my coding world";
+        System.out.println(s19.substring(0,9));//0 to 9-1
+        System.out.println(s19.substring(4,9));
+        System.out.println(s19.substring(4));
     }
     
 }
